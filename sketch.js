@@ -43,8 +43,8 @@ function setup(){
 }
 
 function reset() {
-  ply_X = width / 10;
-  ply_Y = height /2;
+  ply_X = cnv.width / 10;
+  ply_Y = cnv.height /2;
   lightColor = { r: 255, g: 0, b: 0 };
   lightsStarted = false;
   signsStarted = false;
